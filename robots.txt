@@ -1,0 +1,7 @@
+# Crawlers only read robots.txt at the host root, so it lives in this repo
+# rather than in the Portfolio repo.
+User-agent: *
+Allow: /
+Disallow: /Portfolio-Staging/
+
+Sitemap: https://williamthe5thc.github.io/Portfolio/sitemap.xml
